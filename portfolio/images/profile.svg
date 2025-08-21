@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="250" cy="250" r="240" fill="none"/>
+    </clipPath>
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with gradient border -->
+  <circle cx="250" cy="250" r="240" fill="#1a1a1a" stroke="url(#border-gradient)" stroke-width="10"/>
+  
+  <!-- Orange background -->
+  <circle cx="250" cy="250" r="230" fill="#e05d37"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="20" fill="#667eea" opacity="0.3"/>
+  <circle cx="400" cy="150" r="15" fill="#764ba2" opacity="0.3"/>
+  <circle cx="150" cy="400" r="25" fill="#f5576c" opacity="0.3"/>
+  <circle cx="350" cy="350" r="18" fill="#4facfe" opacity="0.3"/>
+  
+  <!-- Silhouette placeholder -->
+  <path d="M250 140c-33.1 0-60 26.9-60 60s26.9 60 60 60 60-26.9 60-60-26.9-60-60-60zm0 100c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z" fill="#ffffff" opacity="0.9"/>
+  <path d="M340 350v-30c0-49.7-40.3-90-90-90s-90 40.3-90 90v30c0 5.5 4.5 10 10 10h160c5.5 0 10-4.5 10-10z" fill="#ffffff" opacity="0.9"/>
+</svg>
